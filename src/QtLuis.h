@@ -10,11 +10,13 @@ using namespace std;
 
 class QTLUISSHARED_EXPORT QtLuis : QObject
 {
+
 	Q_OBJECT
-	Q_CLASSINFO("author", "Vivian Lobo")
+		Q_CLASSINFO("author", "Vivian Lobo")
 
 public:
 	QtLuis(QString ModelID, QString SubscriptionKey);
+
 	QtLuisResult* Call(QString query);
 
 private:
@@ -23,5 +25,6 @@ private:
 	QString model_id;
 	const static QString Endpoint;
 };
+
 
 #endif // QTLUIS_H

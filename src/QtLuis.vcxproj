@@ -158,10 +158,10 @@
     <ClCompile Include="QtLuisEntity.cpp" />
     <ClCompile Include="QtLuisIntent.cpp" />
     <ClCompile Include="QtLuisResult.cpp" />
-    <ClCompile Include="WebClient.cpp" />
+    <ClCompile Include="WebClient\WebClient.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="WebClient.h">
+    <CustomBuild Include="WebClient\WebClient.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing WebClient.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>

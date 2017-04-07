@@ -32,6 +32,12 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Header Files\WebClient">
+      <UniqueIdentifier>{573e6604-59bd-4580-beae-53db57a25ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WebClient">
+      <UniqueIdentifier>{3b217c6e-fee3-489e-924e-835918b5fe9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QtLuis.cpp">
@@ -67,8 +73,8 @@
     <ClCompile Include="GeneratedFiles\Release\moc_WebClient.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="WebClient.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="WebClient\WebClient.cpp">
+      <Filter>Source Files\WebClient</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -98,8 +104,8 @@
     <CustomBuild Include="QtLuisIntent.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="WebClient.h">
-      <Filter>Header Files</Filter>
+    <CustomBuild Include="WebClient\WebClient.h">
+      <Filter>Header Files\WebClient</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>

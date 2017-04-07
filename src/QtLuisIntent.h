@@ -15,5 +15,5 @@ public:
 	QString Intent;
 	double Score;
 
-	QVector<QtLuisIntent> Actions;
+	QVector<QtLuisAction> Actions;
 };

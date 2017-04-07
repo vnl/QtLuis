@@ -8,7 +8,6 @@
 
 class QTLUISSHARED_EXPORT QtLuisResult
 {
-
 public:
 	QtLuisResult();
 

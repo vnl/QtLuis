@@ -1,19 +1,18 @@
 #pragma once
 
-#include <QObject>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QTimer>
 #include <QEventLoop>
 
-class WebClient : public QObject
+class WebClient : QObject
 {
 	Q_OBJECT
-	Q_CLASSINFO("author", "Vivian Lobo")
+		Q_CLASSINFO("author", "Vivian Lobo")
 
 public:
 	WebClient();
-	~WebClient();
+
 	void SetUserAgent(QString value);
 	bool get(QString url);
 	bool post(QString url);

@@ -8,10 +8,6 @@ WebClient::WebClient()
 	m_bReadTimeOut = false;
 }
 
-WebClient::~WebClient()
-{
-}
-
 void WebClient::SetUserAgent(QString value)
 {
 	m_userAgent = value;

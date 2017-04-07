@@ -3,9 +3,9 @@
 #include <QJsonArray>
 #include <QDebug>
 #include "QtLuis.h"
-#include "WebClient.h"
+#include "Webclient/WebClient.h"
 
-const QString QtLuis::Endpoint = "your-endpoint"; //Change this
+const QString QtLuis::Endpoint = "https://api.projectoxford.ai/luis/v2";  //change this
 
 QtLuis::QtLuis(QString ModelID, QString SubscriptionKey)
 {
