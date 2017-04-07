@@ -1,5 +1,7 @@
 # QtLuis
 
+[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
+
 Qt library to interact with Microsoft LUIS: Language Understanding Intelligent Service
 
 Provides the ability to use the library with your existing projects (C++). 
