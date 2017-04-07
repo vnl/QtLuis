@@ -6,7 +6,7 @@ Provides the ability to use the library with your existing projects (C++).
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
-###Language Understanding Intelligent Service (LUIS)
+### Language Understanding Intelligent Service (LUIS)
 
 LUIS lets your app understand language
 
