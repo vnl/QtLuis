@@ -1,6 +1,6 @@
 # QtLuis
 
-[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 
 Qt library to interact with Microsoft LUIS: Language Understanding Intelligent Service
 
